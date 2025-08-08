@@ -13,6 +13,7 @@
     --color-foreground: var(--foreground);
     --color-primary-red: var(--primary-red);
     --font-rubik: var(--rubik);
+    --font-rajdhani: var(--rajdhani);
 }
 
 body {
