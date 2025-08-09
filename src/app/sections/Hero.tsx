@@ -12,7 +12,7 @@ const Hero = () => {
                 className="absolute top-0 left-0 -z-10 opacity-50"
             />
 
-            <section className="before:bg-primary-red after:bg-primary-red align-center container mx-auto flex justify-between py-40 before:absolute before:-top-20 before:-left-[300px] before:h-[600px] before:w-[600px] before:rounded-[100px] before:opacity-30 before:blur-[300px] after:absolute after:-top-20 after:-right-[300px] after:h-[600px] after:w-[600px] after:opacity-30 after:blur-[300px]">
+            <section className="before:bg-primary-red after:bg-primary-red align-center container mx-auto flex justify-between gap-8 py-40 before:absolute before:-top-20 before:-left-[300px] before:h-[600px] before:w-[600px] before:rounded-[100px] before:opacity-30 before:blur-[300px] after:absolute after:-top-20 after:-right-[300px] after:h-[600px] after:w-[600px] after:opacity-30 after:blur-[300px]">
                 <div className="w-1/2">
                     <p className="text-primary-red mb-2 text-lg font-bold uppercase">
                         I am
@@ -36,7 +36,115 @@ const Hero = () => {
                     <Button>Get started</Button>
                 </div>
 
-                <div className="w-1/2"></div>
+                <div className="to-primary-red/5 from-primary-red/20 relative h-min w-1/2 rounded-lg bg-linear-to-tr p-2 font-mono">
+                    <div className="relative flex text-center">
+                        <div className="flex pt-3 pl-3.5">
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                className="mr-1.5 -ml-0.5 h-3 w-3 text-red-500/20"
+                            >
+                                <circle r="12" cy="12" cx="12"></circle>
+                            </svg>
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                className="mr-1.5 -ml-0.75 h-3 w-3 text-yellow-500/20"
+                            >
+                                <circle r="12" cy="12" cx="12"></circle>
+                            </svg>
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                                className="mr-1.5 -ml-0.75 h-3 w-3 text-green-500/20"
+                            >
+                                <circle r="12" cy="12" cx="12"></circle>
+                            </svg>
+                        </div>
+                        <span className="absolute inset-x-0 top-2 text-xs text-slate-500">
+                            page.tsx
+                        </span>
+                    </div>
+
+                    <div className="mt-5 space-y-1.5 px-5 pb-10 text-xs font-normal tracking-wide text-violet-400">
+                        <p>
+                            <span className="text-slate-500">import</span>
+                            <span className="text-green-400"> React </span>
+                            <span className="text-slate-500">from</span>
+                            <span className="text-green-400"> "react"</span>
+                        </p>
+                        <p>
+                            <span className="text-slate-500">import</span>
+                            <span className="text-green-400"> Link </span>
+                            <span className="text-slate-500">from</span>
+                            <span className="text-green-400"> "next/link"</span>
+                        </p>
+                        <br />
+                        <p>
+                            <span className="text-slate-500">
+                                export default function
+                            </span>
+                            <span className="text-blue-400"> AboutMe</span>
+                            <span className="text-slate-500">() {`{`}</span>
+                        </p>
+                        <p className="ml-4">
+                            <span className="text-slate-500">return (</span>
+                        </p>
+                        <p className="ml-8">
+                            <span className="text-slate-500">&lt;</span>
+                            <span className="text-pink-400">div</span>
+                            <span className="text-violet-400"> className</span>
+                            <span className="text-slate-500">=</span>
+                            <span className="text-green-400">
+                                "p-6 bg-gray-900 rounded-lg"
+                            </span>
+                            <span className="text-slate-500">&gt;</span>
+                        </p>
+                        <p className="ml-12">
+                            <span className="text-slate-500">&lt;</span>
+                            <span className="text-pink-400">h1</span>
+                            <span className="text-slate-500">&gt;</span>
+                            <span className="text-blue-400">Darui urf Mikail</span>
+                            <span className="text-slate-500">&lt;/</span>
+                            <span className="text-pink-400">h1</span>
+                            <span className="text-slate-500">&gt;</span>
+                        </p>
+                        <p className="ml-12">
+                            <span className="text-slate-500">&lt;</span>
+                            <span className="text-pink-400">p</span>
+                            <span className="text-slate-500">&gt;</span>
+                            <span className="text-blue-400">
+                                Cybersecurity learner & ex-MERN stack dev.
+                            </span>
+                            <span className="text-slate-500">&lt;/</span>
+                            <span className="text-pink-400">p</span>
+                            <span className="text-slate-500">&gt;</span>
+                        </p>
+                        <p className="ml-12">
+                            <span className="text-slate-500">&lt;</span>
+                            <span className="text-pink-400">Link</span>
+                            <span className="text-violet-400"> href</span>
+                            <span className="text-slate-500">=</span>
+                            <span className="text-green-400">"/projects"</span>
+                            <span className="text-slate-500">&gt;</span>
+                            <span className="text-blue-400">Check out my projects</span>
+                            <span className="text-slate-500">&lt;/</span>
+                            <span className="text-pink-400">Link</span>
+                            <span className="text-slate-500">&gt;</span>
+                        </p>
+                        <p className="ml-8">
+                            <span className="text-slate-500">&lt;/</span>
+                            <span className="text-pink-400">div</span>
+                            <span className="text-slate-500">&gt;</span>
+                        </p>
+                        <p className="ml-4">
+                            <span className="text-slate-500">)</span>
+                        </p>
+                        <p>
+                            <span className="text-slate-500">{`}`}</span>
+                        </p>
+                    </div>
+                </div>
             </section>
         </>
     );
