@@ -12,7 +12,7 @@ const Nav = () => {
             {navbarItems?.map((item) => (
                 <Link
                     key={item.link}
-                    className={`${pathname === item.link && "bg-primary-red/10 text-primary-red"} hover:bg-primary-red/10 hover:text-primary-red px-3 py-1 transition-all duration-300`}
+                    className={`${pathname === item.link && "bg-primary-red/10 text-primary-red"} hover:bg-primary-red/10 hover:text-primary-red rounded-sm px-3 py-1 transition-all duration-500`}
                     href={item.link}
                 >
                     {item.label}

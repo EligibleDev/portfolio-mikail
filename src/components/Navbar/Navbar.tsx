@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Logo from "@/assets/logo-transparent.png";
+import Logo from "@/assets/images/logo-transparent.png";
 import Nav from "./nav";
 import { socialItems } from "@/utils/utils";
 
 const Navbar = () => {
     return (
-        <header className="mx-auto flex max-w-screen-xl items-center justify-between py-7">
+        <header className="mx-auto flex max-w-screen-xl items-center justify-between bg-transparent py-7">
             <Image src={Logo} alt="Mikail" width={200} height={45} />
 
             <Nav />
@@ -17,7 +17,7 @@ const Navbar = () => {
                         key={Item.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:bg-primary-red box-content rounded-full bg-white/10 p-3 text-white transition-all duration-300"
+                        className="hover:bg-primary-red box-content rounded-full bg-white/10 p-3 text-white transition-all duration-500"
                     >
                         <Item.icon size={18} />
                     </a>
