@@ -1,6 +1,7 @@
 import bgShape from "@/assets/images/banner-shape.png";
 import Image from "next/image";
 import BannerTittles from "./BannerTittles";
+import Button from "@/components/Button/Button";
 
 const Hero = () => {
     return (
@@ -21,7 +22,7 @@ const Hero = () => {
 
                     <BannerTittles />
 
-                    <p className="font-rubik text-secondary-gray mt-4 text-xl">
+                    <p className="font-rubik text-secondary-gray mt-4 mb-10 text-xl">
                         I'm a driven
                         <span className="text-primary-red"> front-end developer </span>
                         proficient in
@@ -31,6 +32,8 @@ const Hero = () => {
                         about continuous learning, I seek opportunities to contribute to
                         team goals and excel in performance.
                     </p>
+
+                    <Button>Get started</Button>
                 </div>
 
                 <div className="w-1/2"></div>
