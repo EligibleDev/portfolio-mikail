@@ -23,7 +23,7 @@ const Hero = () => {
                     <BannerTittles />
 
                     <p className="font-rubik text-secondary-gray mt-4 mb-10 text-xl">
-                        I'm a driven
+                        I&apos;m a driven
                         <span className="text-primary-red"> front-end developer </span>
                         proficient in
                         <span className="text-primary-red"> JavaScript </span>,
@@ -71,13 +71,13 @@ const Hero = () => {
                             <span className="text-slate-500">import</span>
                             <span className="text-green-400"> React </span>
                             <span className="text-slate-500">from</span>
-                            <span className="text-green-400"> "react"</span>
+                            <span className="text-green-400"> &quot;react&quot;</span>
                         </p>
                         <p>
                             <span className="text-slate-500">import</span>
                             <span className="text-green-400"> Link </span>
                             <span className="text-slate-500">from</span>
-                            <span className="text-green-400"> "next/link"</span>
+                            <span className="text-green-400"> &quot;next/link&quot;</span>
                         </p>
                         <br />
                         <p>
@@ -96,7 +96,7 @@ const Hero = () => {
                             <span className="text-violet-400"> className</span>
                             <span className="text-slate-500">=</span>
                             <span className="text-green-400">
-                                "p-6 bg-gray-900 rounded-lg"
+                                &quot;p-6 bg-gray-900 rounded-lg&quot;
                             </span>
                             <span className="text-slate-500">&gt;</span>
                         </p>
@@ -104,7 +104,7 @@ const Hero = () => {
                             <span className="text-slate-500">&lt;</span>
                             <span className="text-pink-400">h1</span>
                             <span className="text-slate-500">&gt;</span>
-                            <span className="text-blue-400">Darui urf Mikail</span>
+                            <span className="text-blue-400">Mikail Islam</span>
                             <span className="text-slate-500">&lt;/</span>
                             <span className="text-pink-400">h1</span>
                             <span className="text-slate-500">&gt;</span>
@@ -114,7 +114,7 @@ const Hero = () => {
                             <span className="text-pink-400">p</span>
                             <span className="text-slate-500">&gt;</span>
                             <span className="text-blue-400">
-                                Cybersecurity learner & ex-MERN stack dev.
+                                Jr. MERN Stack and Nextjs developer.
                             </span>
                             <span className="text-slate-500">&lt;/</span>
                             <span className="text-pink-400">p</span>
@@ -125,7 +125,7 @@ const Hero = () => {
                             <span className="text-pink-400">Link</span>
                             <span className="text-violet-400"> href</span>
                             <span className="text-slate-500">=</span>
-                            <span className="text-green-400">"/projects"</span>
+                            <span className="text-green-400">&quot;/projects&quot;</span>
                             <span className="text-slate-500">&gt;</span>
                             <span className="text-blue-400">Check out my projects</span>
                             <span className="text-slate-500">&lt;/</span>
