@@ -9,11 +9,11 @@ const Hero = () => {
             <Image
                 src={bgShape}
                 alt=""
-                className="absolute top-0 left-0 -z-10 opacity-50"
+                className="absolute top-0 left-0 -z-20 opacity-50"
             />
 
-            <section className="before:bg-primary-red after:bg-primary-red align-center container mx-auto flex justify-between gap-8 py-40 before:absolute before:-top-20 before:-left-[300px] before:h-[600px] before:w-[600px] before:rounded-[100px] before:opacity-30 before:blur-[300px] after:absolute after:-top-20 after:-right-[300px] after:h-[600px] after:w-[600px] after:opacity-30 after:blur-[300px]">
-                <div className="w-1/2">
+            <section className="before:bg-primary-red after:bg-primary-red align-center container mx-auto flex flex-col justify-between gap-8 py-40 before:absolute before:-top-20 before:-left-[300px] before:-z-10 before:h-[600px] before:w-[600px] before:rounded-[100px] before:opacity-30 before:blur-[300px] after:fixed after:-top-20 after:-right-[300px] after:-z-10 after:h-[600px] after:w-[600px] after:opacity-30 after:blur-[300px] sm:flex-row">
+                <div className="w-full sm:w-1/2">
                     <p className="text-primary-red mb-2 text-lg font-bold uppercase">
                         I am
                     </p>
@@ -36,7 +36,7 @@ const Hero = () => {
                     <Button>Get started</Button>
                 </div>
 
-                <div className="to-primary-red/5 from-primary-red/20 relative h-min w-1/2 rounded-lg bg-linear-to-tr p-2 font-mono">
+                <div className="to-primary-red/5 from-primary-red/20 relative h-min w-full rounded-lg bg-linear-to-tr p-2 font-mono sm:w-1/2">
                     <div className="relative flex text-center">
                         <div className="flex pt-3 pl-3.5">
                             <svg

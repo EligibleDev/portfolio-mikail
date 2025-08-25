@@ -5,7 +5,7 @@ import { socialItems } from "@/utils/utils";
 
 const Navbar = () => {
     return (
-        <header className="mx-auto flex max-w-screen-xl items-center justify-between bg-transparent py-7">
+        <header className="container mx-auto flex items-center justify-between bg-transparent py-7">
             <Image src={Logo} alt="Mikail" width={200} height={45} />
 
             <Nav />
