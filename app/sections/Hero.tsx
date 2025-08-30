@@ -1,7 +1,8 @@
 import bgShape from "@/assets/images/banner-shape.png";
 import Image from "next/image";
 import BannerTittles from "./BannerTittles";
-import Button from "@/components/Button/Button";
+import { Button } from "@/components/ui/button";
+// import Button from "@/components/Button/Button";
 
 const Hero = () => {
     return (
@@ -33,7 +34,7 @@ const Hero = () => {
                         team goals and excel in performance.
                     </p>
 
-                    <Button>Get started</Button>
+                    <Button>More about me</Button>
                 </div>
 
                 <div className="to-primary-red/5 from-primary-red/20 relative h-min w-full rounded-lg bg-linear-to-tr p-2 font-mono sm:w-1/2">
