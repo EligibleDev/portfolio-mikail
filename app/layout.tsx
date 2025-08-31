@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Rajdhani, Rubik } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/navbar/navbar";
 
 const rubik = Rubik({
     variable: "--font-rubik",

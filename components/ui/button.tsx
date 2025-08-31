@@ -45,9 +45,7 @@ function Button({
         asChild?: boolean;
     }) {
     const Comp = asChild ? Slot : "button";
-
     const isAnimated = variant === "default" || variant === "secondary";
-    console.log(variant, isAnimated);
 
     return (
         <Comp

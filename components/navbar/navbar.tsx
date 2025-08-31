@@ -2,15 +2,16 @@ import Image from "next/image";
 import Logo from "@/assets/images/logo-transparent.png";
 import Nav from "./nav";
 import { socialItems } from "@/utils/utils";
+import MobileNav from "./mobileNav";
 
 const Navbar = () => {
     return (
-        <header className="container mx-auto flex items-center justify-between bg-transparent py-7">
+        <header className="container mx-auto flex items-center justify-between bg-transparent px-4 py-7 sm:px-0">
             <Image src={Logo} alt="Mikail" width={200} height={45} />
 
             <Nav />
 
-            <ul className="flex gap-2">
+            <ul className="hidden gap-2 sm:flex">
                 {socialItems?.map((Item) => (
                     <a
                         href={Item.link}
@@ -23,6 +24,8 @@ const Navbar = () => {
                     </a>
                 ))}
             </ul>
+
+            <MobileNav />
         </header>
     );
 };

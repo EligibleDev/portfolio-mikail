@@ -1,8 +1,7 @@
 import bgShape from "@/assets/images/banner-shape.png";
 import Image from "next/image";
-import BannerTittles from "./BannerTittles";
+import BannerTittles from "./bannerTittles";
 import { Button } from "@/components/ui/button";
-// import Button from "@/components/Button/Button";
 
 const Hero = () => {
     return (
