@@ -2,7 +2,7 @@ import Image from "next/image";
 import Logo from "@/assets/images/logo-transparent.png";
 import Nav from "./nav";
 import { socialItems } from "@/utils/utils";
-import MobileNav from "./mobileNav";
+import MobileNavbar from "./mobileNavbar";
 
 const Navbar = () => {
     return (
@@ -20,12 +20,12 @@ const Navbar = () => {
                         rel="noopener noreferrer"
                         className="hover:bg-primary-red box-content rounded-full bg-white/10 p-3 text-white transition-all duration-500"
                     >
-                        <Item.icon size={18} />
+                        <Item.icon size={14} />
                     </a>
                 ))}
             </ul>
 
-            <MobileNav />
+            <MobileNavbar />
         </header>
     );
 };
