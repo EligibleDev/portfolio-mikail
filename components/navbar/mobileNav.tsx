@@ -1,7 +1,25 @@
-import React from "react";
+"use client";
+
+import { navbarItems } from "@/utils/utils";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const MobileNav = () => {
-    return <div>mobile maneu bar</div>;
+    const pathname = usePathname();
+
+    return (
+        <nav className="flex flex-col gap-2 px-4 font-bold capitalize">
+            {navbarItems?.map((item) => (
+                <Link
+                    key={item.link}
+                    className={`${pathname === item.link && "bg-primary-red/10 text-primary-red"} hover:bg-primary-red/10 hover:text-primary-red rounded-sm px-3 py-1 transition-all duration-500`}
+                    href={item.link}
+                >
+                    {item.label}
+                </Link>
+            ))}
+        </nav>
+    );
 };
 
 export default MobileNav;

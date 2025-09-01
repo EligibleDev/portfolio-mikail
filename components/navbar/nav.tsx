@@ -8,7 +8,7 @@ const Nav = () => {
     const pathname = usePathname();
 
     return (
-        <nav className="hidden gap-2 font-bold capitalize sm:flex">
+        <nav className="hidden gap-2 font-bold capitalize lg:flex">
             {navbarItems?.map((item) => (
                 <Link
                     key={item.link}
