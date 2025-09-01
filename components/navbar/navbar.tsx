@@ -6,12 +6,12 @@ import MobileNavbar from "./mobileNavbar";
 
 const Navbar = () => {
     return (
-        <header className="container mx-auto flex items-center justify-between bg-transparent px-4 py-7 xl:px-0">
+        <header className="container mx-auto flex items-center justify-between gap-3 bg-transparent px-4 py-7 xl:px-0">
             <Image src={Logo} alt="Mikail" width={200} height={45} />
 
             <Nav />
 
-            <ul className="hidden gap-2 lg:flex">
+            <ul className="hidden flex-1 justify-end gap-2 md:flex lg:flex-none">
                 {socialItems?.map((Item) => (
                     <a
                         href={Item.link}

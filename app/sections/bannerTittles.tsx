@@ -19,7 +19,7 @@ const BannerTittles = () => {
             ]}
             speed={50}
             repeat={Infinity}
-            className="text-primary-red mt-2 text-6xl font-bold"
+            className="text-primary-red mt-0 text-3xl font-bold sm:text-4xl md:text-5xl lg:mt-2 xl:text-6xl"
             wrapper="h1"
         />
     );

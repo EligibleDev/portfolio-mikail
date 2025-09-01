@@ -12,17 +12,19 @@ const Hero = () => {
                 className="absolute top-0 left-0 -z-20 opacity-50"
             />
 
-            <section className="before:bg-primary-red after:bg-primary-red align-center container mx-auto flex flex-col justify-between gap-8 py-40 before:absolute before:-top-20 before:-left-[300px] before:-z-10 before:h-[600px] before:w-[600px] before:rounded-[100px] before:opacity-30 before:blur-[300px] after:fixed after:-top-20 after:-right-[300px] after:-z-10 after:h-[600px] after:w-[600px] after:opacity-30 after:blur-[300px] sm:flex-row">
-                <div className="w-full sm:w-1/2">
+            <section className="before:bg-primary-red after:bg-primary-red align-center container mx-auto flex flex-col justify-between gap-8 px-4 py-4 before:absolute before:-top-20 before:-left-[300px] before:-z-10 before:h-[600px] before:w-[600px] before:rounded-[100px] before:opacity-30 before:blur-[300px] after:fixed after:-top-20 after:-right-[300px] after:-z-10 after:h-[600px] after:w-[600px] after:opacity-30 after:blur-[300px] lg:flex-row lg:py-40 xl:px-0">
+                <div className="w-full lg:w-1/2">
                     <p className="text-primary-red mb-2 text-lg font-bold uppercase">
                         I am
                     </p>
 
-                    <h1 className="text-6xl font-bold">Mikail Islam</h1>
+                    <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl xl:text-6xl">
+                        Mikail Islam
+                    </h1>
 
                     <BannerTittles />
 
-                    <p className="font-rubik text-secondary-gray mt-4 mb-10 text-xl">
+                    <p className="font-rubik text-secondary-gray mt-4 mb-10 text-lg lg:text-xl">
                         I&apos;m a driven
                         <span className="text-primary-red"> front-end developer </span>
                         proficient in
@@ -36,7 +38,7 @@ const Hero = () => {
                     <Button>More about me</Button>
                 </div>
 
-                <div className="to-primary-red/5 from-primary-red/20 relative h-min w-full rounded-lg bg-linear-to-tr p-2 font-mono sm:w-1/2">
+                <div className="to-primary-red/5 from-primary-red/20 relative h-min w-full rounded-lg bg-linear-to-tr p-2 font-mono lg:w-1/2">
                     <div className="relative flex text-center">
                         <div className="flex pt-3 pl-3.5">
                             <svg
