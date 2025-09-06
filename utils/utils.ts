@@ -1,6 +1,6 @@
-import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 import { ForwardRefExoticComponent, RefAttributes } from "react";
 import { LucideProps } from "lucide-react";
+import { CodeXml, Facebook, Github, Instagram, Layers2, Linkedin } from "lucide-react";
 
 export const navbarItems: { label: string; link: string }[] = [
     { label: "home", link: "/" },
@@ -19,4 +19,18 @@ export const socialItems: {
     { icon: Linkedin, link: "https://www.linkedin.com/in/developer-mikail" },
     { icon: Facebook, link: "https://www.facebook.com/m1ka1l" },
     { icon: Instagram, link: "https://www.instagram.com/m1ka1l_" },
+];
+
+export const aboutStrengths = [
+    {
+        title: "Clean UI / UX",
+        description:
+            "I design interfaces that feel smooth, intuitive, and user-friendly.",
+        icon: Layers2,
+    },
+    {
+        title: "Technical Precision",
+        description: "Writing clean, maintainable code with best practices.",
+        icon: CodeXml,
+    },
 ];

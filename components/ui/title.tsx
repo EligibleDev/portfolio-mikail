@@ -9,9 +9,7 @@ const Title = ({ children, subtitle, description }: TitleProps) => {
 
             <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl">{children}</h1>
 
-            <p className="font-rubik text-secondary-gray mt-4 mb-10 text-base">
-                {description}
-            </p>
+            <p className="font-rubik text-secondary-gray mt-4 text-base">{description}</p>
         </div>
     );
 };
