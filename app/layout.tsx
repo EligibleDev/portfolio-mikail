@@ -28,7 +28,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${rubik?.className} ${rajdhani?.className} overflow-x-hidden antialiased`}
+                className={`${rubik?.className} ${rajdhani?.className} !overflow-x-hidden antialiased`}
             >
                 <Navbar />
                 {children}

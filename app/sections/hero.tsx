@@ -12,7 +12,7 @@ const Hero = () => {
                 className="absolute top-0 left-0 -z-20 opacity-50"
             />
 
-            <section className="before:bg-primary-red after:bg-primary-red align-center container mx-auto flex flex-col justify-between gap-8 px-4 py-4 before:absolute before:-top-20 before:-left-[300px] before:-z-10 before:h-[600px] before:w-[600px] before:rounded-[100px] before:opacity-30 before:blur-[300px] after:absolute after:-top-20 after:-right-[300px] after:-z-10 after:h-[600px] after:w-[600px] after:opacity-30 after:blur-[300px] lg:flex-row lg:py-20 xl:px-0 xl:py-32">
+            <section className="before:bg-primary-red after:bg-primary-red align-center container mx-auto flex flex-col justify-between gap-8 px-4 pt-4 pb-10 before:absolute before:-top-20 before:-left-[300px] before:-z-10 before:h-[600px] before:w-[600px] before:rounded-[100px] before:opacity-30 before:blur-[300px] after:absolute after:-top-20 after:-right-[300px] after:-z-10 after:h-[600px] after:w-[600px] after:opacity-30 after:blur-[300px] lg:flex-row lg:py-20 xl:px-0 xl:py-32">
                 <div className="w-full lg:w-1/2">
                     <p className="text-primary-red mb-2 text-lg font-bold uppercase">
                         I am
