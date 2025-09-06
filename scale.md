@@ -1,0 +1,2 @@
+- spinning element in the banner
+- glowing hover border in about strengths
