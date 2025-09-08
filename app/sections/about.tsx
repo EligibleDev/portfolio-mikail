@@ -5,26 +5,26 @@ import { LayoutTemplate } from "lucide-react";
 
 const About = () => {
     return (
-        <section className="container mx-auto flex items-center justify-end px-4 py-32 xl:px-0">
-            <div className="relative flex w-1/2 flex-col items-end justify-center gap-8 pr-24">
-                <span className="from-primary-red to absolute top-32 left-0 size-96 rounded-full bg-linear-to-b to-transparent blur-xs"></span>
+        <section className="container mx-auto flex flex-col items-center justify-end gap-12 px-4 py-16 sm:py-32 lg:flex-row lg:gap-0 xl:px-0">
+            <div className="relative flex w-full flex-col items-end justify-center gap-4 pr-0 sm:gap-8 lg:w-1/2 lg:pr-24">
+                <span className="from-primary-red to absolute top-32 left-0 size-55 rounded-full bg-linear-to-b to-transparent blur-xs lg:size-96"></span>
 
-                <div className="bg-secondary-gray/10 w-4/5 space-y-4 rounded-3xl p-16 text-center backdrop-blur-2xl">
-                    <h1 className="text-8xl font-bold">4+</h1>
+                <div className="bg-secondary-gray/10 w-full space-y-4 rounded-3xl p-5 text-center backdrop-blur-2xl sm:p-16 lg:w-4/5">
+                    <h1 className="text-6xl font-bold sm:text-8xl">4+</h1>
 
-                    <h3 className="font-rubik text-4xl font-medium">
+                    <h3 className="font-rubik text-xl font-medium sm:text-4xl">
                         Years of working
                         <br /> with websites
                     </h3>
                 </div>
 
-                <div className="bg-secondary-gray/10 flex w-4/5 items-center gap-7 rounded-3xl p-8 backdrop-blur-2xl">
-                    <div className="border-primary-red/50 w-min rounded-full border p-7">
-                        <LayoutTemplate className="text-primary-red size-11" />
+                <div className="bg-secondary-gray/10 flex w-full items-center gap-3 rounded-3xl p-4 backdrop-blur-2xl sm:gap-7 sm:p-8 lg:w-4/5">
+                    <div className="border-primary-red/40 w-min rounded-full border p-4 sm:p-7">
+                        <LayoutTemplate className="text-primary-red size-6 sm:size-11" />
                     </div>
 
                     <div className="">
-                        <h3 className="font-rubik text-2xl font-medium">
+                        <h3 className="font-rubik text-xl font-medium sm:text-2xl">
                             Web Development
                         </h3>
                         <p className="text-lg font-normal">50+ Projects</p>
@@ -32,7 +32,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="w-1/2 space-y-10">
+            <div className="w-full space-y-10 lg:w-1/2">
                 <Title
                     subtitle="About me"
                     description="I've been working with websites since 2021. And helped over 100s of clients around the globe."
@@ -40,7 +40,7 @@ const About = () => {
                     Front-end based Full stack Web Developer
                 </Title>
 
-                <div className="flex justify-between gap-8">
+                <div className="flex flex-col justify-between gap-8 sm:flex-row">
                     {aboutStrengths.map((item) => (
                         <div
                             key={item.title}
